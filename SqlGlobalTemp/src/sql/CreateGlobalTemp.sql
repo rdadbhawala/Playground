@@ -10,7 +10,7 @@ drop table ##GlobalTemp
 
 
 CREATE PROCEDURE [dbo].[SqlGlobalTempSproc] AS
-    select * from #SqlGlobalTemp
+    select count(*) from #SqlGlobalTemp
 GO
 
 call SqlGlobalTempSproc

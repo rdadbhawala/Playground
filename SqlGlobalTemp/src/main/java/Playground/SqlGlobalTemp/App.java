@@ -67,8 +67,7 @@ public class App
 			}
 		} catch (Exception e) {
 			// e.printStackTrace();
-		} finally {
-			return value;
 		}
+		return value;
 	}
 }
