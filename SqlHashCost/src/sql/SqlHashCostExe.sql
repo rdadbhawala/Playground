@@ -1,0 +1,1 @@
+SqlHashCostSproc 100000
