@@ -13,7 +13,7 @@ public class App
     public static void main( String[] args )
     {
         System.out.println( "Hello World!" );
-		String connectionUrl = "jdbc:sqlserver://localhost:1433;databaseName=PlayGround;user=sa;password=sql";
+		String connectionUrl = "jdbc:sqlserver://localhost:1433;databaseName=cas;user=sa;password=sql";
 
 		try {
 			// Load SQL Server JDBC driver and establish connection.
